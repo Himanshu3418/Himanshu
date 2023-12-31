@@ -1,0 +1,53 @@
+.colour-grad{
+    background-image: linear-gradient(to right top, #845ec2, #9068cd, #9c71d8, #a87be4, #b485ef, #d589e4, #ed8fda, #ff99d0, #ffaeb7, #ffcab0, #ffe6bf, #fefedf);
+}
+
+@keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+.container{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-items{
+    width: 100px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.lead{
+    font-size: 25px;
+    color: white;
+    
+}
+
+h1{
+    font-size: 4rem;
+    font-family: 'Sacramento', cursive;
+    font-weight: bold;
+}
+
+#skill{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
